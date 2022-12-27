@@ -42,12 +42,14 @@ const Login = () => {
 			<div className={styles.top}>
 				<img src="https://www2.lehigh.edu/sites/www2/files/2019-01/LehighU_official-logo_White.png"  width = "300" alt=""/>
 			</div>
-			<div className={styles.left}>
-				<h1>Login to Your Account</h1>
-				<button type="submit" className={styles.green_btn}>
-					Sign In
-				</button>
-			</div>
+			
+				<div className={styles.left}>
+					<h1>Login to Your Account</h1>
+					<button type="submit" className={styles.green_btn}>
+						Sign In
+					</button>
+				</div>
+			
 		</div>
 	);
 };
